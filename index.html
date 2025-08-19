@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La De Da Desserts</title>
+  <meta name="description" content="La De Da Desserts — Cheesecake, cookies, key lime pie, carrot cake, Bundt cakes, and more. Pretty pink bakery by Tammy Adler." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%23fff' d='M0 0h24v24H0z'/><path fill='%23E11D48' d='M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z'/></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>html{scroll-behavior:smooth}</style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-pink-50 via-white to-white text-gray-800">
+  <!-- background blobs -->
+  <div class="pointer-events-none fixed inset-0 -z-10">
+    <div class="absolute -top-24 -right-24 h-64 w-64 rounded-full bg-pink-200/40 blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-rose-200/40 blur-3xl"></div>
+  </div>
+
+  <!-- header -->
+  <header class="sticky top-0 z-20 backdrop-blur bg-white/80 border-b border-pink-100">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="group inline-flex items-center gap-2">
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-500 text-white">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg>
+        </span>
+        <span class="font-extrabold tracking-tight text-lg text-pink-700 group-hover:text-pink-600 transition-colors">La De Da Desserts</span>
+      </a>
+      <nav class="hidden sm:flex items-center gap-6 text-sm">
+        <a class="hover:text-pink-600" href="#menu">Menu</a>
+        <a class="hover:text-pink-600" href="#about">About</a>
+        <a class="hover:text-pink-600" href="#contact">Contact</a>
+        <a class="rounded-full bg-pink-600 px-4 py-2 font-semibold text-white shadow hover:bg-pink-500" href="tel:6788526144">Call to Order</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- hero -->
+  <section id="home" class="relative">
+    <div class="mx-auto max-w-6xl px-4 py-16 sm:py-20 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="mb-3 inline-flex items-center gap-2 rounded-full bg-pink-100 px-3 py-1 text-pink-700 text-xs font-semibold">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg>
+          Made with love by Tammy Adler
+        </p>
+        <h1 class="text-4xl sm:text-5xl font-black leading-tight text-pink-800">La De Da Desserts</h1>
+        <p class="mt-4 text-lg text-gray-700 max-w-prose">Cheesecakes, cookies, pies, Bundt cakes, and more—beautifully crafted, irresistibly delicious. Pink & pretty, perfect for any celebration.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#menu" class="rounded-xl bg-white border border-pink-200 px-5 py-3 font-semibold shadow-sm hover:shadow transition">View Menu</a>
+          <a href="tel:6788526144" class="rounded-xl bg-pink-600 px-5 py-3 font-semibold text-white shadow hover:bg-pink-500">Call (678) 852-6144</a>
+          <a href="sms:6788526144" class="rounded-xl bg-rose-100 px-5 py-3 font-semibold text-pink-700 hover:bg-rose-200 border border-rose-200">Text Us</a>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-square w-full rounded-3xl bg-gradient-to-br from-pink-100 to-rose-100 p-2 shadow-xl">
+          <div class="h-full w-full rounded-2xl bg-white relative overflow-hidden">
+            <div class="absolute inset-0 grid grid-cols-3 gap-1 p-3">
+              <div class="rounded-xl bg-pink-50"></div>
+              <div class="rounded-xl bg-rose-50"></div>
+              <div class="rounded-xl bg-pink-100"></div>
+              <div class="rounded-xl bg-rose-100 col-span-2"></div>
+              <div class="rounded-xl bg-pink-50"></div>
+              <div class="rounded-xl bg-rose-50 col-span-3"></div>
+            </div>
+            <div class="absolute bottom-3 left-3 right-3 rounded-xl bg-white/80 backdrop-blur p-3 border border-pink-100">
+              <p class="text-sm text-gray-700"><span class="font-semibold text-pink-700">Pretty in Pink:</span> our signature sweet style for weddings, birthdays, showers & more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- menu -->
+  <section id="menu" class="py-14 sm:py-16 bg-white">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex items-end justify-between gap-6 mb-8">
+        <div>
+          <h2 class="text-3xl font-extrabold text-pink-800">Menu Highlights</h2>
+          <p class="text-gray-700">Small-batch bakes. Custom designs available on request.</p>
+        </div>
+        <a href="tel:6788526144" class="hidden sm:inline-block rounded-full bg-pink-600 px-4 py-2 font-semibold text-white shadow hover:bg-pink-500">Order by Phone</a>
+      </div>
+
+      <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <li class="group rounded-2xl border border-pink-100 bg-white/90 p-5 shadow-sm hover:shadow-md transition relative">
+          <span class="absolute -top-3 -left-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-200 text-pink-700 shadow"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg></span>
+          <h3 class="text-lg font-extrabold text-pink-800">Cheesecake</h3>
+          <p class="mt-2 text-sm text-gray-700">Classic, creamy perfection with a buttery crust.</p>
+          <div class="mt-4 flex items-center gap-2">
+            <span class="inline-flex items-center rounded-full bg-pink-50 px-2.5 py-1 text-xs font-semibold text-pink-700 border border-pink-100">Made to order</span>
+            <span class="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 border border-rose-100">Fresh daily</span>
+          </div>
+        </li>
+        <li class="group rounded-2xl border border-pink-100 bg-white/90 p-5 shadow-sm hover:shadow-md transition relative">
+          <span class="absolute -top-3 -left-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-200 text-pink-700 shadow"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg></span>
+          <h3 class="text-lg font-extrabold text-pink-800">Cookies</h3>
+          <p class="mt-2 text-sm text-gray-700">Soft-baked chocolate chip & seasonal flavors.</p>
+          <div class="mt-4 flex items-center gap-2">
+            <span class="inline-flex items-center rounded-full bg-pink-50 px-2.5 py-1 text-xs font-semibold text-pink-700 border border-pink-100">Made to order</span>
+            <span class="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 border border-rose-100">Fresh daily</span>
+          </div>
+        </li>
+        <li class="group rounded-2xl border border-pink-100 bg-white/90 p-5 shadow-sm hover:shadow-md transition relative">
+          <span class="absolute -top-3 -left-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-200 text-pink-700 shadow"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg></span>
+          <h3 class="text-lg font-extrabold text-pink-800">Key Lime Pie</h3>
+          <p class="mt-2 text-sm text-gray-700">Bright, tart, and silky with a graham crust.</p>
+          <div class="mt-4 flex items-center gap-2">
+            <span class="inline-flex items-center rounded-full bg-pink-50 px-2.5 py-1 text-xs font-semibold text-pink-700 border border-pink-100">Made to order</span>
+            <span class="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 border border-rose-100">Fresh daily</span>
+          </div>
+        </li>
+        <li class="group rounded-2xl border border-pink-100 bg-white/90 p-5 shadow-sm hover:shadow-md transition relative">
+          <span class="absolute -top-3 -left-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-200 text-pink-700 shadow"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg></span>
+          <h3 class="text-lg font-extrabold text-pink-800">Carrot Cake</h3>
+          <p class="mt-2 text-sm text-gray-700">Spiced layers with velvety cream cheese frosting.</p>
+          <div class="mt-4 flex items-center gap-2">
+            <span class="inline-flex items-center rounded-full bg-pink-50 px-2.5 py-1 text-xs font-semibold text-pink-700 border border-pink-100">Made to order</span>
+            <span class="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 border border-rose-100">Fresh daily</span>
+          </div>
+        </li>
+        <li class="group rounded-2xl border border-pink-100 bg-white/90 p-5 shadow-sm hover:shadow-md transition relative">
+          <span class="absolute -top-3 -left-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-200 text-pink-700 shadow"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg></span>
+          <h3 class="text-lg font-extrabold text-pink-800">Chocolate Pecan Pie</h3>
+          <p class="mt-2 text-sm text-gray-700">Rich chocolate meets toasted pecans—decadent.</p>
+          <div class="mt-4 flex items-center gap-2">
+            <span class="inline-flex items-center rounded-full bg-pink-50 px-2.5 py-1 text-xs font-semibold text-pink-700 border border-pink-100">Made to order</span>
+            <span class="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 border border-rose-100">Fresh daily</span>
+          </div>
+        </li>
+        <li class="group rounded-2xl border border-pink-100 bg-white/90 p-5 shadow-sm hover:shadow-md transition relative">
+          <span class="absolute -top-3 -left-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-200 text-pink-700 shadow"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg></span>
+          <h3 class="text-lg font-extrabold text-pink-800">Chocolate Chip Bundt Cake</h3>
+          <p class="mt-2 text-sm text-gray-700">Moist, dotted with chips, party favorite.</p>
+          <div class="mt-4 flex items-center gap-2">
+            <span class="inline-flex items-center rounded-full bg-pink-50 px-2.5 py-1 text-xs font-semibold text-pink-700 border border-pink-100">Made to order</span>
+            <span class="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 border border-rose-100">Fresh daily</span>
+          </div>
+        </li>
+        <li class="group rounded-2xl border border-pink-100 bg-white/90 p-5 shadow-sm hover:shadow-md transition relative">
+          <span class="absolute -top-3 -left-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-200 text-pink-700 shadow"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg></span>
+          <h3 class="text-lg font-extrabold text-pink-800">Blueberry Streusel Coffee Cake</h3>
+          <p class="mt-2 text-sm text-gray-700">Tender crumb, juicy blueberries, crunchy top.</p>
+          <div class="mt-4 flex items-center gap-2">
+            <span class="inline-flex items-center rounded-full bg-pink-50 px-2.5 py-1 text-xs font-semibold text-pink-700 border border-pink-100">Made to order</span>
+            <span class="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 border border-rose-100">Fresh daily</span>
+          </div>
+        </li>
+        <li class="group rounded-2xl border border-pink-100 bg-white/90 p-5 shadow-sm hover:shadow-md transition relative">
+          <span class="absolute -top-3 -left-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-200 text-pink-700 shadow"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg></span>
+          <h3 class="text-lg font-extrabold text-pink-800">Chocolate Bundt Cake (Cream Cheese Frosting)</h3>
+          <p class="mt-2 text-sm text-gray-700">Deep cocoa + tangy swirl on top.</p>
+          <div class="mt-4 flex items-center gap-2">
+            <span class="inline-flex items-center rounded-full bg-pink-50 px-2.5 py-1 text-xs font-semibold text-pink-700 border border-pink-100">Made to order</span>
+            <span class="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 border border-rose-100">Fresh daily</span>
+          </div>
+        </li>
+        <li class="group rounded-2xl border border-pink-100 bg-white/90 p-5 shadow-sm hover:shadow-md transition relative">
+          <span class="absolute -top-3 -left-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-pink-200 text-pink-700 shadow"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg></span>
+          <h3 class="text-lg font-extrabold text-pink-800">Red Velvet Cake (Cream Cheese Frosting)</h3>
+          <p class="mt-2 text-sm text-gray-700">Velvety crumb, classic tangy finish.</p>
+          <div class="mt-4 flex items-center gap-2">
+            <span class="inline-flex items-center rounded-full bg-pink-50 px-2.5 py-1 text-xs font-semibold text-pink-700 border border-pink-100">Made to order</span>
+            <span class="inline-flex items-center rounded-full bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 border border-rose-100">Fresh daily</span>
+          </div>
+        </li>
+      </ul>
+
+      <div class="mt-10 rounded-2xl bg-gradient-to-r from-rose-50 to-pink-50 p-6 border border-pink-100">
+        <p class="text-gray-800">Looking for <span class="font-semibold text-pink-800">custom cakes</span>, dessert tables, or catering? We love showers, birthdays, and weddings. Call or text and we’ll make it magical.</p>
+        <div class="mt-4 flex gap-3">
+          <a href="tel:6788526144" class="rounded-xl bg-pink-600 px-5 py-3 font-semibold text-white shadow hover:bg-pink-500">Call (678) 852-6144</a>
+          <a href="sms:6788526144" class="rounded-xl bg-white px-5 py-3 font-semibold text-pink-700 border border-pink-200 hover:bg-rose-50">Text Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section id="about" class="py-14 sm:py-16 bg-pink-50/60 border-y border-pink-100">
+    <div class="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div class="order-2 md:order-1">
+        <h2 class="text-3xl font-extrabold text-pink-800">Baked with love by Tammy Adler</h2>
+        <p class="mt-3 text-gray-700">La De Da Desserts is a small, woman-owned bakery specializing in classic, elegant sweets—think creamy cheesecakes, beautiful Bundt cakes, and picture-perfect pies. Everything is made fresh in small batches with high-quality ingredients.</p>
+        <ul class="mt-4 space-y-2 text-gray-700">
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-pink-600 mt-1" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg>Pretty pink aesthetic for showers & birthdays</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-pink-600 mt-1" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg>Custom designs & writing available</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-pink-600 mt-1" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg>Pickup or local delivery by arrangement</li>
+        </ul>
+      </div>
+      <div class="order-1 md:order-2">
+        <div class="aspect-square w-full rounded-3xl bg-white p-2 shadow-xl border border-pink-100">
+          <div class="h-full w-full rounded-2xl bg-gradient-to-br from-rose-100 via-pink-50 to-white flex items-center justify-center">
+            <div class="text-center px-6 py-10">
+              <div class="mx-auto mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-pink-600 text-white shadow-lg">
+                <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.716-4.157-9.428-6.87A5.5 5.5 0 1 1 10.4 6.3L12 7.9l1.6-1.6a5.5 5.5 0 1 1 7.828 7.83C18.716 16.843 12 21 12 21z"/></svg>
+              </div>
+              <p class="text-pink-900 font-black text-2xl leading-tight">Sweet. Soft. Stunning.</p>
+              <p class="mt-2 text-gray-700">Your dessert dreams, dressed in pink.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="py-14 sm:py-16">
+    <div class="mx-auto max-w-6xl px-4 grid lg:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-3xl font-extrabold text-pink-800">Let’s make something beautiful</h2>
+        <p class="mt-3 text-gray-700">Reach out for orders, custom designs, and availability.</p>
+        <div class="mt-6 grid sm:grid-cols-2 gap-4">
+          <a href="tel:6788526144" class="rounded-2xl bg-pink-600 px-5 py-4 font-semibold text-white shadow hover:bg-pink-500 text-center">Call (678) 852-6144</a>
+          <a href="sms:6788526144" class="rounded-2xl bg-white px-5 py-4 font-semibold text-pink-700 border border-pink-200 hover:bg-rose-50 text-center">Text Us</a>
+        </div>
+        <div class="mt-6 text-sm text-gray-600">
+          <p><span class="font-semibold text-pink-800">Phone:</span> (678) 852-6144</p>
+          <p><span class="font-semibold text-pink-800">Owner/Baker:</span> Tammy Adler</p>
+        </div>
+      </div>
+
+      <div class="rounded-3xl bg-white border border-pink-100 shadow-sm p-6">
+        <h3 class="text-xl font-extrabold text-pink-800">Quick Inquiry (demo)</h3>
+        <p class="mt-1 text-sm text-gray-600">This demo form doesn’t send. Replace with your email or form service later.</p>
+        <form class="mt-4 grid gap-4" onsubmit="event.preventDefault(); alert('Thanks! We will contact you soon. (Demo)')">
+          <label class="grid gap-1">
+            <span class="text-sm font-semibold text-gray-700">Your Name</span>
+            <input class="rounded-xl border border-pink-200 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-300" placeholder="Name" />
+          </label>
+          <label class="grid gap-1">
+            <span class="text-sm font-semibold text-gray-700">What would you like?</span>
+            <input class="rounded-xl border border-pink-200 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-300" placeholder="e.g., 9&quot; Red Velvet, writing ‘Happy Birthday!’" />
+          </label>
+          <label class="grid gap-1">
+            <span class="text-sm font-semibold text-gray-700">When do you need it?</span>
+            <input type="date" class="rounded-xl border border-pink-200 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-300" />
+          </label>
+          <button class="mt-2 rounded-2xl bg-pink-600 px-5 py-3 font-semibold text-white shadow hover:bg-pink-500" type="submit">Send Inquiry (demo)</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="border-t border-pink-100 bg-white/80">
+    <div class="mx-auto max-w-6xl px-4 py-8 grid sm:grid-cols-2 gap-6 items-center">
+      <div>
+        <p class="font-extrabold text-pink-800">La De Da Desserts</p>
+        <p class="text-sm text-gray-600">© <span id="year"></span> La De Da Desserts. All rights reserved.</p>
+      </div>
+      <div class="sm:text-right text-sm text-gray-700">
+        <p>Call or text <a class="font-semibold text-pink-700 hover:underline" href="tel:6788526144">(678) 852-6144</a></p>
+        <p>Pretty, custom desserts for every celebration.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
